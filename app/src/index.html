@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<script
-        type="text/javascript"
-        src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-<!--src="app/lib/angular.min.js"></script>-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="app.js" type="text/javascript"></script>
 <script src="https://unpkg.com/htmlincludejs"></script>
 <head>
@@ -17,6 +14,7 @@
 <div ng-controller="MyController">
     {{name}}
 </div>
+    <include src="./screen/navBar.html"></include>
     <include src="./screen/mainView.html"></include>
 </body>
 </html>

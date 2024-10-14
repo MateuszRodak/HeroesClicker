@@ -1,6 +1,15 @@
-.main-view{
-width: 1px;
+.nav-view{
 color: red;
+ margin-left: 20px;
+ background: blue;
+ height: 150px;
+}
+
+.main-view{
+color: red;
+ margin-left: 20px;
+ background: green;
+ height: 500px;
 }
 
 .body{
